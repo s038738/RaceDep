@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "883572868438",
+    "project_id": "wheelz-6ed3a",
+    "storage_bucket": "wheelz-6ed3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883572868438:android:1e42c493d5c214d94b02f7",
+        "android_client_info": {
+          "package_name": "com.example.wheelz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883572868438-7162la3futsjnma5ghm18qap2v7gutrl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wheelz",
+            "certificate_hash": "9acaf6e9190a2d5ad0d3c25da68b9c2fe0ea90c6"
+          }
+        },
+        {
+          "client_id": "883572868438-d8rdl7k3kf4jeodvmif7j1up9jlv68ol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTAS2derNGWzAAw1mkct0AmvCf5ENx6vg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883572868438-d8rdl7k3kf4jeodvmif7j1up9jlv68ol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
