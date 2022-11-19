@@ -37,7 +37,21 @@ class LoginActivity : BaseActivity(), View.OnClickListener {
         btn_login.setOnClickListener(this)
         tv_register.setOnClickListener(this)
 
+        //setupActionBar()
+
     }
+//   Grizimas atgal
+//    private fun setupActionBar() {
+//
+//        setSupportActionBar(toolbar_login_activity)
+//        getSupportActionBar()?.setDisplayShowTitleEnabled(false);
+//        val actionBar = supportActionBar
+//        if (actionBar != null) {
+//            actionBar.setDisplayHomeAsUpEnabled(true)
+//            actionBar.setHomeAsUpIndicator(R.drawable.ic_baseline_arrow_back_ios_24)
+//        }
+//        toolbar_login_activity.setNavigationOnClickListener { onBackPressed() }
+//    }
 
      override fun onClick(view: View?) {
          if (view != null) {
@@ -65,12 +79,12 @@ class LoginActivity : BaseActivity(), View.OnClickListener {
     fun userLoggedInSuccess(user: User) {
         hideProgressDialog()
 
-        Log.i("First name: ", user.firstName)
-        Log.i("Last name: ", user.lastName)
-        Log.i("Email: ", user.email)
+        Log.i("${resources.getString(R.string.first_name)}: ", user.firstName)
+        Log.i("${resources.getString(R.string.last_name)}: ", user.lastName)
+        Log.i("${resources.getString(R.string.email)}: ", user.email)
 
         startActivity(Intent(this@LoginActivity, MainActivity::class.java))
-        //finish()
+        finish()
     }
 
 

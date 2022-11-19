@@ -16,6 +16,7 @@ class ForgotPasswordActivity : BaseActivity() {
 
     private fun setupActionBar() {
         setSupportActionBar(toolbar_forgot_password_activity)
+        getSupportActionBar()?.setDisplayShowTitleEnabled(false);
         val actionBar = supportActionBar
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true)

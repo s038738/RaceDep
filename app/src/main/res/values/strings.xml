@@ -1,7 +1,9 @@
 <resources>
-    <string name="app_name">Race Department</string>
 
-    <string name="content_description">image</string>
+<!--    XML PART-->
+    <string name="app_name" translatable="false">Race Department</string>
+
+    <string name="content_description" translatable="false">image</string>
     <string name="title_login">LOGIN</string>
     <string name="et_hint_email_id">Email ID</string>
     <string name="et_hint_password">Password</string>
@@ -32,9 +34,102 @@
     <string name="title_forgot_password">FORGOT PASSWORD?</string>
     <string name="forgot_password_title_description">Enter your username and e-mail address we\'ll send you an email to reset your password </string>
     <string name="btn_lbl_submit">Submit</string>
-    
+
     <string name="email_sent_success">\"Email sent successfully to reset your password! \"</string>
 
     <string name="register_success">You are registered successfully.</string>
+
+<!--    Calendar activity-->
+    <string name="welcome_to">Welcome to </string>
+
+    <string name="sign_in">Sign in</string>
+    <string name="home">Home</string>
+    <string name="calendar">Calendar</string>
+    <string name="cars">Cars</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+
+    <string name="sign_out">Sign out</string>
+
+    <string name="select_a_car">Select a car</string>
+
+    <string name="you_need_to_register_first">You need to register first</string>
+    <string name="you_need_to_set_date_first">You need to set date first</string>
+    <string name="you_need_to_select_a_car_first">You need to select a car first</string>
+
+    <string name="book_now">Book now</string>
+    <string name="your_order_is_complete">Your order is complete</string>
+
+<!--    Car activity-->
+    <string name="car_class_elektro">Elektro</string>
+    <string name="engine_e">E, Dual, 520 hp</string>
+    <string name="gearbox_1_speed">1 speed auto</string>
+    <string name="desc_tesla">With a full charge of battery you can do at least\n
+                            3 very fast laps, or if driving not on maximum\n
+                            attack – more. After that, at the Nurburgring there\n
+                            is Tesla supercharger V3 which will get you a 90-95%\n
+                            of charge in 35 minutes and after a small break – you\n
+                            can carry on doing fast laps!</string>
+
+    <string name="engine_230hp">2.0L, 4-inline T, 230 hp</string>
+    <string name="gearbox_6_speed_auto">6 speed auto</string>
+    <string name="desc_vw">Equipped with DSG Dual-clutch gearbox, This car can\n
+                            be driven by anyone. Even gated fans like ourselves\n
+                            tried the Golf GTI with the DSG box and we where\n
+                            amazed how much fun it was, and safe at the same\n
+                            time! Together with paddle-shift or fully-automatic\n
+                            option, your track experience will be unforgettable!</string>
+
+    <string name="engine_245">2.0L, 4-inline T, 245 hp</string>
+    <string name="gearbox_8_speed_auto">8 speed auto</string>
+    <string name="desc_f30_328i">The BMW 3-series is the standard of what a car\n
+                            should be like. A solid chassis, front engine,\n
+                            rear wheel drive and automatic Paddle-shift gearbox.\n
+                            The 6th generation of the 3series F30 is the\n
+                            younger brother of our E90.</string>
+
+    <string name="engine_270">3.0L, 6-inline, 270 hp</string>
+    <string name="gearbox_6_speed_manual">6 speed manual</string>
+    <string name="desc_e90_330i">BMW E90 330i is a fast and popular racing car in VLN\n
+                            endurance racing championship on the Nürburgring.\n
+                            We love the recipe of this car: RWD + very nice\n
+                            naturally aspirated inline-6 engine + great\n
+                            handling balance  = car you can push quite easily\n
+                            to the limits and have lots of fun.</string>
+
+    <string name="engine_225">2.5L, 6-inline,225 hp</string>
+    <string name="desc_e90_325i">BMW E90 325i is one of the most popular racing cars\n
+                            in VLN endurance racing championship on the\n
+                            Nürburgring. We love the recipe of this car: RWD\n
+                            very nice naturally aspirated inline-6 engine\n
+                            + great handling balance  = car you can push quite\n
+                            easily to the limits and have lots of fun.</string>
+
+    <string name="class_ignore">Class</string>
+    <string name="engine">Engine</string>
+    <string name="gearbox">Gearbox</string>
+    <string name="weight">Weight</string>
+    <string name="year">Year</string>
+
+    <string name="order">ORDER</string>
+
+<!--  Login Activity  -->
+
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">Email</string>
+
+<!--    Main activity-->
+    <string name="race_rental_nurburgring">RACE CAR RENTAL NURBURGRING</string>
+    <string name="desc_home_rental_company">We are the only rental company offering fast and FIA-safe REAL racing cars to drive on the Nurburgring Nordschleife. Every year we race and win podiums with them running the same setups. Feel the difference!</string>
+    <string name="your_safety">Your safety</string>
+    <string name="desc_home_rental_company2">Apart from all race-spec safety equipment inside of the cars, we provide helmets, balaclavas and safety briefing without additional cost for all our drivers and their passengers. </string>
+    <string name="all_inclusive">All-Inclusive</string>
+    <string name="desc_home_rental_company3">For your ease of Nurburgring experience we offer you All-inclusive package. Book whole track experience here with just few clicks! </string>
+    <string name="flexible_booking_dates">Flexible Booking Dates</string>
+    <string name="desc_home_rental_company4">If you have booked our car and your plans has changed or you aren’t happy with the weather – you can change booking date without any fees. </string>
+    <string name="browse_cars">BROWSE CARS</string>
+
+
 
 </resources>

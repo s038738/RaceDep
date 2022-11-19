@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    XML PART-->
+
+    <string name="title_login">PRISIJUNGTI</string>
+    <string name="et_hint_email_id">Paštas</string>
+    <string name="et_hint_password">Slaptažodis</string>
+    <string name="lbl_forgot_password">Pamiršote slaptažodį?</string>
+    <string name="btn_lbl_login">Prisijungti</string>
+    <string name="don_t_have_an_account">Neturite paskyros?</string>
+    <string name="register"><u>Registruotis</u></string>
+
+    <string name="create_an_account">SUSIKURTI PASKYRĄ</string>
+
+    <string name="hint_last_name">Pavardė</string>
+    <string name="hint_first_name">Vardas</string>
+    <string name="et_hint_confirm_password">Patvirtinti slaptažodį</string>
+    <string name="btn_lbl_register">Registruotis</string>
+
+    <string name="already_have_an_account">Ar jau turite paskyra?</string>
+    <string name="login"><u>Prisijungti</u></string>
+
+    <string name="err_msg_enter_first_name">Įveskite savo vardą.</string>
+    <string name="err_msg_enter_last_name">Įveskite savo pavardę.</string>
+    <string name="err_msg_enter_email">Įveskite savo paštą.</string>
+    <string name="err_msg_enter_password">Įveskite savo slaptažodį.</string>
+    <string name="err_msg_enter_confirm_password">Pakartotinai įveskite slaptažodį.</string>
+    <string name="err_msg_password_and_confirm_password_mismatch">Slaptažodžiai nesutampa.</string>
+    <string name="register_successfull">Jūs užsiregistravote!</string>
+    <string name="please_wait">Prašome palaukti&#8230;</string>
+
+    <string name="title_forgot_password">PAMIRŠOTE SLAPTAŽODĮ?</string>
+    <string name="forgot_password_title_description">Įveskite savo prisijungimo vardą ir pašto adresą ir mes išsiųsime laišką slaptažodžio atkūrimui </string>
+    <string name="btn_lbl_submit">Pirmyn</string>
+
+    <string name="email_sent_success">\"Laiškas sėkmingai išsiųstas! \"</string>
+
+    <string name="register_success">Sėkmingai prisiregistravote.</string>
+
+    <!--    Calendar activity-->
+    <string name="welcome_to">Sveiki atvykę į </string>
+
+    <string name="sign_in">Prisijungti</string>
+    <string name="home">Namai</string>
+    <string name="calendar">Kalendorius</string>
+    <string name="cars">Automobiliai</string>
+    <string name="settings">Nustatymai</string>
+    <string name="help">Pagalba</string>
+
+    <string name="sign_out">Atsijungti</string>
+
+    <string name="select_a_car">Pasirinkti automobilį</string>
+
+    <string name="you_need_to_register_first">Pirma prisiregistruokite</string>
+    <string name="you_need_to_set_date_first">Pirma išsirinkite norimą datą</string>
+    <string name="you_need_to_select_a_car_first">Pirma išsirinkite automobilį</string>
+
+    <string name="book_now">Užsakyti</string>
+    <string name="your_order_is_complete">Jūsų užsakymas sėkmingas</string>
+
+    <!--    Car activity-->
+    <string name="car_class_elektro">Elektra</string>
+    <string name="engine_e">E, Dual, 520 AG</string>
+    <string name="gearbox_1_speed">1 pavara, automatas</string>
+    <string name="desc_tesla">Visiškai įkrovę akumuliatorių galite padaryti bent jau\n
+                            labai greiti ratai arba jei važiuojama ne maksimaliai\n
+                            puolimas – daugiau. Po to ten Niurburgringe\n
+                            yra Tesla kompresorius V3, kuris suteiks jums 90–95 proc.\n
+                            nemokamai per 35 minutes ir po nedidelės pertraukėlės – jūs\n
+                            gali tęsti greitus ratus!</string>
+
+
+
+    <string name="engine_230hp">2.0L, 4-eilėje, 230 AG</string>
+    <string name="gearbox_6_speed_auto">6 bėgių automatas</string>
+    <string name="desc_vw">Įrengtas DSG dvigubos sankabos pavarų dėžė, šis automobilis\n
+                            gali vairuoti bet kas. Net tokie uždari gerbėjai, kaip\n
+                            mes patys išbandžiau Golf GTI su DSG dėže ir mes kur\n
+                            nustebino, kaip tai buvo smagu ir tuo pat metu saugu\n
+                            laikas! Kartu su pavarų perjungimu arba visiškai\n
+                            automatiniu. Jūsų kelionės patirtis bus nepamirštama!</string>
+
+    <string name="engine_245">2.0L, 4-eilėje T, 245 AG</string>
+    <string name="gearbox_8_speed_auto">8 bėgių automatas</string>
+    <string name="desc_f30_328i">3 serijos BMW yra automobilio standartas\n
+                            turėtų būti kaip. Tvirta važiuoklė, priekinis variklis,\n
+                            galinių ratų pavara ir automatinė pavarų dėžė.\n
+                            6-oji 3 serijos F30 karta yra\n
+                            jaunesnysis mūsų E90 brolis.</string>
+
+    <string name="engine_270">3.0L, 6-eilėje, 270 AG</string>
+    <string name="gearbox_6_speed_manual">6 bėgių mechaninė</string>
+    <string name="desc_e90_330i">BMW E90 330i yra greitas ir populiarus lenktyninis \n
+                            automobilis VLN ištvermės lenktynių čempionatas Niurburgringe.\n
+                            Mums patinka šio automobilio receptas: RWD + labai gražus\n
+                            atmosferinis 6 eilės variklis + puikus\n
+                            valdymo balansas = automobilį galite gana lengvai stumti\n
+                            iki ribų ir smagiai praleisti laiką.</string>
+
+    <string name="engine_225">2.5L, 6-eilėje,225 AG</string>
+    <string name="desc_e90_325i">BMW E90 325i yra vienas populiariausių lenktyninių \n
+                            automobilių VLN ištvermės lenktynių čempionate\n
+                            Niurburgringas. Mums patinka šio automobilio receptas: RWD\n
+                            labai gražus atmosferinis 6 eilės variklis\n
+                            + puikus valdymo balansas = automobilį galite stumti\n
+                            iki ribų ir smagiai praleisti laiką.</string>
+
+    <string name="class_ignore">Klasė</string>
+    <string name="engine">Variklis</string>
+    <string name="gearbox">Pavarų dėžė</string>
+    <string name="weight">Svoris</string>
+    <string name="year">Surinkimo metai</string>
+
+    <string name="order">Užsakyti</string>
+
+    <!--  Login Activity  -->
+
+    <string name="first_name">Vardas</string>
+    <string name="last_name">Pavardė</string>
+    <string name="email">Paštas</string>
+
+    <!--    Main activity-->
+    <string name="race_rental_nurburgring">AUTOMOBILIŲ NUOMA NIURBURGRINGE</string>
+    <string name="desc_home_rental_company">Esame vienintelė nuomos įmonė, siūlanti greitus ir FIA saugius REAL lenktyninius automobilius, skirtus važiuoti Niurburgringo Nordschleife trasoje. Kiekvienais metais mes lenktyniaujame ir laimime podiumus, kai jie atlieka tuos pačius nustatymus. Jausti skirtumą!</string>
+    <string name="your_safety">Jūsų saugumui</string>
+    <string name="desc_home_rental_company2">Be visos lenktynėms skirtos saugos įrangos automobiliuose, mes suteikiame šalmus, balaklavas ir saugos instruktažas be papildomų išlaidų visiems mūsų vairuotojams ir jų keleiviams.</string>
+    <string name="all_inclusive">Viskas įskaičiuota</string>
+    <string name="desc_home_rental_company3">Kad galėtumėte lengviau patirti Niurburgringą, siūlome paketą „Viskas įskaičiuota“. Užsisakykite visą takelį čia vos keliais paspaudimais!</string>
+    <string name="flexible_booking_dates">Flexible Booking Dates</string>
+    <string name="desc_home_rental_company4">Jei užsisakėte mūsų automobilį ir pasikeitė jūsų planai arba jūsų netenkina oras – galite pakeisti užsakymo datą be jokių mokesčių.</string>
+    <string name="browse_cars">AUTOMOBILIAI</string>
+
+
+
+</resources>
